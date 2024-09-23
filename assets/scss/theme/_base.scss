@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: $theme-text-color-primary;
+	color: $theme-text-color;
 	font-weight: bold;
 }
 
@@ -50,16 +50,16 @@ h1, h2, h3, h4, h5, h6 {
 	height:100vh;
 	width: $sidebar-width;
 	background: $theme-color-primary;
-	color: #fff;
+	color: #454545;
 	
 	
 	
 	.blog-name {
 		font-weight: bold;
 		font-size: 1.5rem;
-		color: #fff;
+		color: #363636;
 		a {
-			color: #fff;
+			color: #363636;
 			&:hover {
 				text-decoration: none;
 			}
